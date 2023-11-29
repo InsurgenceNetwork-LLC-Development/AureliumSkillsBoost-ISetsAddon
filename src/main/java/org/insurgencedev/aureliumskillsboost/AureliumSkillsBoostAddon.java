@@ -8,7 +8,7 @@ import org.insurgencedev.insurgencesets.api.addon.InsurgenceSetsAddon;
 public class AureliumSkillsBoostAddon extends InsurgenceSetsAddon {
 
     @Override
-    public void onAddonStart() {
+    public void onAddonReloadablesStart() {
         if (isDependentEnabled()) {
             registerEvent(new SkillsXPGainListener());
         }
