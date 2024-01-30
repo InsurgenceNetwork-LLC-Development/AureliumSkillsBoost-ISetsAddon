@@ -7,7 +7,7 @@ Using the below settings, the player will receive a 5x boost on the amount of sk
 
 ```yaml
 Boosts:
-  - Namespace: MISC
+  - Namespace: AURELIUM_SKILLS
     Type: Skills
     Percent: false
     Settings:
